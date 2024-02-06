@@ -9,14 +9,10 @@ img {
     overflow: clip;
     overflow-clip-margin: content-box;
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.image1 {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-}
-
 h1 {
    text-align: center;
    text-transform: uppercase;
