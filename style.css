@@ -1,3 +1,9 @@
+body {
+   background-color: tan;
+   margin: 0 15%;
+   font-family: sans-serif;
+}
+
 img {
    width: 175px;
    text-align: center;
