@@ -1,3 +1,10 @@
 img {
    width: 175px;
 }
+
+h1 {
+   text-align: center;
+   text-transform: uppercase;
+   border-bottom: 1px solid black;
+   margin-top: 18%;
+}
