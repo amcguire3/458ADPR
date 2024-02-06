@@ -1,7 +1,11 @@
 img {
    width: 175px;
-   margin-top: 18%;
    text-align: center;
+}
+
+.image1 {
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 h1 {
