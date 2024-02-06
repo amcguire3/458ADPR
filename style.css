@@ -20,4 +20,8 @@ h1 {
    text-transform: uppercase;
    border-bottom: 1px solid black;
    margin-top: 18%;
+   color: white;
+}
+h2 {
+   color: white;
 }
