@@ -4,6 +4,44 @@ body {
    font-family: sans-serif;
 }
 
+header {
+   background-color: ;
+   color: #fff
+   padding: 35px 25px;
+}
+
+nav {
+   background-color: ;
+}
+nav ul {
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   gap: 30px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+nav ul li {}
+nav ul li a {
+   display: block;
+   color: #fff;
+   text-decoration: none;
+   padding: 16px;
+   background-color: #444;
+   border-radius: 12px;
+   min-width: 120px;
+   text-align: center;
+}
+nav ul li a:hover {
+background-color: #111;
+}
+
+
+aisde img {
+   border: 2px solid #8fb4f7;
+   border-radius: 100%;
+   object-fit: cover;
+}
 img {
    width: 175px;
     overflow: clip;
