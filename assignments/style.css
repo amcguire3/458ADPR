@@ -40,7 +40,6 @@ background-color: #111;
 aside img {
    border: 2px solid #8fb4f7;
    border-radius: 100%;
-   object-fit: cover;
 }
 
 img {
