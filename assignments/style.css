@@ -47,7 +47,6 @@ aside img {
 img {
    width: 175px;
     overflow: clip;
-    overflow-clip-margin: content-box;
     text-align: center;
     display: block;
     margin-left: auto;
