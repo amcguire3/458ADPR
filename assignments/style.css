@@ -5,6 +5,8 @@ body {
    font-family: sans-serif;
 }
 
+
+
 header {
    background-color: ;
    color: #fff
@@ -19,8 +21,8 @@ nav ul {
    list-style: none;
    justify-content: center;
    gap: 30px;
-   padding-top: 20px;
-   padding-bottom: 20px;
+   padding: 0 30px;
+   margin: 0;
 }
 nav ul li {}
 nav ul li a {
@@ -38,10 +40,17 @@ nav ul li a:hover {
 background-color: #111;
 }
 
+main {
+   display: grid;
+   grid-template-columns: 4fr 1fr;
+   column-gap: 30px;
+}
+
 aside img {
    border: 2px solid #8fb4f7;
    border-radius: 50%;
    object-fit: cover;
+   max-width: 250px;
 }
 
 img {
@@ -63,3 +72,25 @@ h1 {
 h2 {
 
 }
+
+@media (max-width; 720px) {
+   nav ul {
+      flex-direction: column;
+      gap: 15px;
+   }
+   aside {
+      order: -1;
+      text-align: center;
+      margin-top: 30px;
+   }
+   main {
+      display: grid;
+      grid-template-columns: auto;
+      row-gap: 0;
+   }
+   aside img {
+      width: 90%;
+   } 
+}
+
+
