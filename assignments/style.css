@@ -73,24 +73,5 @@ h2 {
 
 }
 
-@media (max-width; 720px) {
-   nav ul {
-      flex-direction: column;
-      gap: 15px;
-   }
-   aside {
-      order: -1;
-      text-align: center;
-      margin-top: 30px;
-   }
-   main {
-      display: grid;
-      grid-template-columns: auto;
-      row-gap: 0;
-   }
-   aside img {
-      width: 90%;
-   } 
-}
 
 
