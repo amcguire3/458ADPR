@@ -20,21 +20,32 @@ nav {
    background-color: #333;
 }
 nav ul {
-  
-}
-nav ul li {
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   margin: 0;
+   padding: 0 30px;
+   gap: 30px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
 
-}
-nav ul li a {
+ nav ul li a {
+   display: block;
+   color: #fff;
+   text-decoration: none;
+   padding: 16px;
+   background-color: #222;
+   border-radius: 12px;
+   min-width: 120px;
+   text-align: center;
+   transition: all 0.33s ease;
+ }
  
-}
-nav ul li a:hover {
-   
-}
+ nav ul li a:hover {
+   background-color: #999;
+ }
 
-aside {
-
-}
 aside img {
    max-width: 250px;
    border: 6px solid rgb(48,110,193);
@@ -74,16 +85,16 @@ footer {
    width: min(95%, 75rem);
 }
 .container > * {
-   grid-column: span 12;
+grid-column: span 12;
 
 }
 
 /* Desktop Layout */
 @media screen and (min-wdith: 40rem) {
    .col-span-8 {
-      grid-column: span 8:
+   grid-column: span 8;
    }
    .col-span-4 {
-      grid-column: span 4:
+   grid-column: span 4;
    }
 }
