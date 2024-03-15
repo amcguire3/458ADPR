@@ -1,100 +1,60 @@
 
 body {
-   background-color: lightgrey;
    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/white-waves.png);
-   margin: 0 15%;
    font-family: sans-serif;
-   font-family: sans-serif;
-   margin-left: auto;
-   margin-right: auto;
-   padding-left: 25px;
-   padding-right: 25px;
 }
 
 
 
 header {
-   background-color: #999;
-   color: #fff;
-   padding: 35px 25px;
+   background-color: rgb(48,110,193);
+   color:white;
+   padding: 2rem;
+
 }
 
 nav {
-   background-color: #333;
+   
 }
 nav ul {
-   display: flex;
-   list-style: none;
-   justify-content: center;
-   gap: 30px;
-   padding: 0 30px;
-   padding-top:20px;
-   padding-bottom: 20px;
-   margin: 0;
+   
 }
-nav ul li {}
+nav ul li {
+
+}
 nav ul li a {
-   display: block;
-   color: #fff;
-   text-decoration: none;
-   padding: 16px;
-   background-color: #222;
-   border-radius: 12px;
-   min-width: 120px;
-   text-align: center;
-   transition: all 0.33s ease;
+   
 }
 nav ul li a:hover {
-background-color: #999;
+
 }
 
-main {
-   display: grid;
-   grid-template-columns: 4fr 1fr;
-   gap: 30px;
-}
+
 aside {
-   margin-top: 30px;
+
 }
 aside img {
-   border: 2px solid #8fb4f7;
-   border-radius: 50%;
-   object-fit: cover;
    max-width: 250px;
-   
+   border: 6px solid rgb(48,110,193);
+   border-radius: 100%;
+   aspect-ratio: 1/1;
+   object-fit: cover;
 }
 
 img {
    width: 175px;
-    overflow: clip;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-top: 10px;
 }
 h1 {
    text-align: center;
    text-transform: uppercase;
-   border-bottom: 1px solid black;
-   margin-top: 18%;
+   font-size: 2rem;
+   color: black;
 }
 h2 {
-
+   font-size: 1.5rem;
 }
 
 footer {
    padding-bottom: 20px;
 }
 
-/* Mobile Styles */
-
-@media (max-width: 720px) {
-   nav ul {
-      flex-direction: column;
-      gap: 15px;
-   }
-
-   
-}
