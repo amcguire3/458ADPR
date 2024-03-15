@@ -31,10 +31,6 @@ nav ul li a {
 nav ul li a:hover {
    
 }
-main {
-  
-}
-
 
 aside {
 
@@ -58,6 +54,10 @@ h1 {
 }
 h2 {
    font-size: 1.5rem;
+}
+
+h3 {
+   font-size: 1.25rem;
 }
 
 footer {
