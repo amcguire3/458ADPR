@@ -1,8 +1,14 @@
+
 body {
    background-color: lightgrey;
    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/white-waves.png);
    margin: 0 15%;
    font-family: sans-serif;
+   font-family: sans-serif;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 25px;
+   padding-right: 25px;
 }
 
 
@@ -14,7 +20,7 @@ header {
 }
 
 nav {
-   background-color: ;
+   background-color: #333;
 }
 nav ul {
    display: flex;
@@ -22,6 +28,8 @@ nav ul {
    justify-content: center;
    gap: 30px;
    padding: 0 30px;
+   padding-top:20px;
+   padding-bottom: 20px;
    margin: 0;
 }
 nav ul li {}
@@ -30,27 +38,30 @@ nav ul li a {
    color: #fff;
    text-decoration: none;
    padding: 16px;
-   background-color: #444;
+   background-color: #222;
    border-radius: 12px;
    min-width: 120px;
    text-align: center;
-   transition: background-color 0.25s ease;
+   transition: all 0.33s ease;
 }
 nav ul li a:hover {
-background-color: #111;
+background-color: #999;
 }
 
 main {
    display: grid;
    grid-template-columns: 4fr 1fr;
-   column-gap: 30px;
+   gap: 30px;
 }
-
+aside {
+   margin-top: 30px;
+}
 aside img {
    border: 2px solid #8fb4f7;
    border-radius: 50%;
    object-fit: cover;
    max-width: 250px;
+   
 }
 
 img {
@@ -73,5 +84,17 @@ h2 {
 
 }
 
+footer {
+   padding-bottom: 20px;
+}
 
+/* Mobile Styles */
 
+@media (max-width: 720px) {
+   nav ul {
+      flex-direction: column;
+      gap: 15px;
+   }
+
+   
+}
