@@ -5,13 +5,8 @@
 body {
    font-family: sans-serif;
    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/white-waves.png);
-   font-family: sans-serif;
-   max-width: 960px;
-   width: 100%;
-   margin-left: auto;
-   padding-left: 25px;
-   padding-right: 25px;
-   margin-right: auto;
+   margin: 0;
+  
 }
 
 header {
@@ -25,36 +20,19 @@ nav {
    background-color: #333;
 }
 nav ul {
-   display: flex;
-  list-style: none;
-  justify-content: center;
-  margin: 0;
-  padding: 0 30px;
-  gap: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  
 }
 nav ul li {
 
 }
 nav ul li a {
-   display: block;
-  color: #fff;
-  text-decoration: none;
-  padding: 16px;
-  background-color: #222;
-  border-radius: 12px;
-  min-width: 120px;
-  text-align: center;
-  transition: all 0.33s ease;
+ 
 }
 nav ul li a:hover {
-   background-color: #999;
+   
 }
 main {
-   display: grid;
-  grid-template-columns: 4fr 1fr;
-  gap: 30px;
+  
 }
 
 
@@ -86,25 +64,26 @@ footer {
    padding-bottom: 20px;
 }
 
-/* Mobile Styles */
+/**** Layout ****/
+.container {
+   background-color: white;
+   display: grid;
+   gap: 1.5rem;
+   grid-template-columns: repeat (12, 1fr);
+   margin: 0 auto;
+   width: min(95%, 75rem);
+}
+.container > * {
+   grid-column: span 12;
 
-@media (max-width: 720px) {
-   nav ul {
-     flex-direction: column;
-     gap: 15px;
+}
+
+/* Desktop Layout */
+@media screen and (min-wdith: 40rem) {
+   .col-span-8 {
+      grid-column: span 8:
    }
-   
-   main {
-     grid-template-columns: auto;
-     row-gap: 0;
+   .col-span-4 {
+      grid-column: span 4:
    }
- 
-   aside {
-     order: -1;
-     text-align: center;
-   }
-   
-   aside img {
-     width: 90%; 
-   }
- }
+}
