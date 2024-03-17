@@ -46,6 +46,21 @@ nav ul {
    background-color: #999;
  }
 
+a {
+   display: block;
+   color: #fff;
+   text-decoration: none;
+   padding: 16px;
+   background-color: #222;
+   border-radius: 12px;
+   min-width: 120px;
+   text-align: center;
+   transition: all 0.33s ease;
+}
+a:hover {
+   background-color: #999;
+}
+
 aside img {
    max-width: 250px;
    border: 6px solid rgb(48,110,193);
